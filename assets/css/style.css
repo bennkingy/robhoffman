@@ -387,7 +387,7 @@ Carousel_section
 .tp-caption .text-right {
 	color: #202E31;
 }
-.carousel-indicators li.first:after {
+/*.carousel-indicators li.first:after {
 	content: '01';
 	color: #ffffff;
 	font-size: 20px;
@@ -414,7 +414,7 @@ Carousel_section
 .carousel-indicators li.active:after {
 	opacity: 1;
 	font-size: 25px;
-}
+}*/
 .carousel-indicators li {
 	display: block;
 	background-color: transparent;
