@@ -679,8 +679,8 @@
 <!-- filter --> 
 <script src="assets/js/jquery.isotope.min.js"></script> 
 
-<!-- gallery_popup-->
-<script src="assets/js/lightbox.js"></script>
+<!-- gallery_popup--
+<script src="assets/js/lightbox.js"></script> -->
 
 <!-- carousel slider --> 
 <script src="assets/js/wow.min.js"></script> 
