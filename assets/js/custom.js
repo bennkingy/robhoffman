@@ -58,6 +58,11 @@
             "scrollTop": $target.offset().top - 90
         }, 1000, "swing");
   });
+/*----------------- SMOOTH SCROLL -----------------
+  $("a[href='#top']").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
+  });*/
   /*----------------- NAV_BAR ACTIVE CLASS -----------------*/
   var header = document.getElementById("onenav");
   var btns = header.getElementsByClassName("nav-link");

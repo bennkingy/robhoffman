@@ -1412,7 +1412,7 @@ Contact_section
 .home_contact_sec .left {
 	z-index: 22;
 	position: absolute;
-	background-image: url(../images/contact_form.png);
+	background-image: url(/Users/bennking/Projects/robhoffman/assets/images/gym-twickenham.png);
 	background-size: cover;
 	left: -170px;
 	padding-left: 400px;
@@ -1424,7 +1424,7 @@ Contact_section
 
 }
 .home_contact_sec .left:before {
-    background: rgba(36, 35, 50, 1);
+/* background: rgba(36, 35, 50, 0); */
     content: "";
     height: 100%;
     left: 0;
@@ -2959,18 +2959,6 @@ a.action_btn:hover {
 .navbar-toggle .icon-bar {
 	background-color: #82b53f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .c-post header {
     height: auto;
 }
