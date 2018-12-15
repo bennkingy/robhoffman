@@ -1233,3 +1233,14 @@ ol.children{
     margin-top: 14px;
 }
 }
+
+
+
+
+
+
+@media (max-width: 480px) {
+	.home_contact_sec .left {
+		clip-path: none;
+	}
+}
