@@ -492,17 +492,14 @@ Services_section
 	float: left;
 	width: 100%;
 	position: absolute;
-	top: 45%;
-	left: 0;
+	top: 5%;
+	left: 5%;
 	right: 0;
 	bottom: auto;
 	display: block;
 	width: 100%;
 	height: auto;
-	transform: translateY(-50%);
-	padding: 60PX 45PX 0;
-	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
+	transform: none
 }
 .top-servic-box figure img {
 	float: left;

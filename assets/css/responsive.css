@@ -61,11 +61,11 @@
 	max-width: 80%;
 }
 }
- @media only (min-width: 1133px) {
+ @media (min-width: 1133px) {
  .tp-banner {
  max-height: 750px !important;
  height: 750px !important;
-}
+ }
  .top-servic-box .content h2 {
  line-height: 40px;
 }
@@ -893,7 +893,6 @@ section.about_inner_page {
 }
 .top-servic-box .content {
 	margin: 20px auto;
-	padding: 20PX 10PX 0;
 }
 .text h4 {
     font-size: 16px;

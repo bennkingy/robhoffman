@@ -195,7 +195,7 @@
         <div class="row">
           <div class="site-top-service-main">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div class="top-servic-box ser1">
+              <div class="top-servic-box ser1" style="position:relative;">
                 <figure> <img src="assets/images/therapy.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -221,7 +221,7 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div class="top-servic-box ser2">
+              <div class="top-servic-box ser2" style="position:relative;">
                 <figure> <img src="assets/images/opening.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
