@@ -3169,6 +3169,10 @@ blockquote p{
   animation-delay: 0.8s, 0s;
 }
 
-
+@media (min-width:768px) and (max-width:991px) {
+  .footer-widget.quick-links ul {
+	min-height: 133px;
+  }
+}
 
 
