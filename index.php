@@ -25,6 +25,10 @@
   <!-- Preloader --> 
 
   <style>
+     @media (min-width:720px) {
+    .carousel-inner, .carousel {
+    max-height: 580px;
+}}
   @media (min-width:1024px) and (max-width:1279px) {
   .inner-content {
   height: 71vh;
@@ -68,6 +72,9 @@
   }
   .navbar-toggle .icon-bar {
 	height: 4px;
+  }
+  @media (min-width:1200px) {
+    
   }
   </style>
 
@@ -141,7 +148,7 @@
                   <div class="col-md-8 iner_info">
                     <h2 class="wow fadeInUp animated img_animate">Sports massage therapy</h2>
                     <h3 class="wow fadeInUp animated title_animate">Personal training</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact me<menu></menu></span> <i class="fa fa-arrow-right hvr-icon" aria-hidden="true"></i></a> </div>
+<!---<a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact me<menu></menu></span> <i class="fa fa-arrow-right hvr-icon" aria-hidden="true"></i></a> </div> -->
                 </div>
               </div>
             </div>
