@@ -908,7 +908,8 @@ section.about_inner_page {
 	margin-bottom: 0;
 }
 .service_info img {
-	width: 70%;
+	width: 100%;
+	margin-bottom:30px;
 }
 .top-servic-box .content h4 {
 	margin: 15px 0px 25px;
