@@ -6,34 +6,81 @@
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hoffman Health</title>
+<title>Hoffman Health - Sports Massage Therapy</title>
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/lightbox.css">
+<!--<link rel="stylesheet" href="assets/css/lightbox.css"> -->
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/animate.css">
 <link rel="stylesheet" href="assets/css/owl.theme.default.css">
 </head>
 <body>
 <div class="page-wrapper"> 
-  <!-- Preloader -->
-  <!--<div class="preloader"></div>-->
+  <!-- Preloader 
+  <div class="preloader"></div>
   <!-- Preloader --> 
-  
+
+  <style>
+  @media (min-width:1024px) and (max-width:1279px) {
+  .inner-content {
+  height: 71vh;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  .footer-widget.quick-links ul {
+  min-height: 133px;
+  }
+}
+  .robImg::after {
+  content: "";
+  background: rgba(45, 88, 35, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+  @media (min-width:992px) and  (max-width:1199px) {
+	.top-servic-box figure img {
+	  max-height: 293px;
+	}
+  }
+  @media (min-width:1200px) and  (max-width:1279px) {
+	.top-servic-box figure img {
+	  max-height: 355px;
+	}
+  }
+  @media (min-width:1280px) {
+	.top-servic-box figure img {
+	  max-height: 370px;
+	}
+  }
+  .navbar-toggle {
+	border: none;
+	margin-right: -9px;
+	margin-top: 6PX;
+	margin-bottom: 6PX;
+  }
+  .navbar-toggle .icon-bar {
+	height: 4px;
+  }
+  </style>
+
   <!-- header start -->
   <header class="main-header">
     <div class="header-top">
       <div class="container clearfix">
         <div class="top-left pull-left clearfix">
           <div class="phone pull-left"><a href="tel:07748 785 686"><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;07748 785 686</a></div>
-          <div class="email pull-left"><!--<a href="mailto:Fetness@yourdomain.com"><i class="fa fa-envelope-o"></i> Fitness@yourdomain.com</a>--></div>
+          <div class="email pull-left"><a href="mailto:r.hoffman@btopenworld.com"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;r.hoffman@btopenworld.com</a></div>
         </div>
         <div class="top-right pull-right clearfix">
-          <div class="social"><a class="fa fa-facebook-f" href="#"></a><!--- <a class="fa fa-twitter" href="#"></a>--><a class="fa fa-instagram" href="#"></a> <!--<a class="fa fa-google-plus" href="#"></a>--></div>
+          <div class="social"><a class="fa fa-facebook-f" href="https://www.facebook.com/Sports-Massage-Therapy-1519100721689863"></a><!--- <a class="fa fa-twitter" href="#"></a>--><a class="fa fa-instagram" href="#"></a> <!--<a class="fa fa-google-plus" href="#"></a>--></div>
         </div>
       </div>
     </div>
@@ -52,10 +99,10 @@
                 <li class="nav-link home current"><a href="#home" class="js-scroll-trigger">HOME</a> </li>
                 <li class="nav-link"><a href="#aboutus" class="js-scroll-trigger">ABOUT</a> </li>
                 <li class="nav-link"><a href="#course" class="js-scroll-trigger">SERVICES</a></li>
-           <!--     <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">SCHEDULE</a></li> -->
-             <!--   <li class="nav-link"><a href="#blog" class="js-scroll-trigger">BLOG</a></li> -->
+                <!--  <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">SCHEDULE</a></li> -->
+                <!--  <li class="nav-link"><a href="#blog" class="js-scroll-trigger">BLOG</a></li> -->
                 <li class="nav-link"><a href="#contact" class="js-scroll-trigger">CONTACT</a></li>
-              <!---  <li class="search-btn" onclick="openSearch()"><a><i class="fa fa-search"></i></a></li> -->
+                <!--- <li class="search-btn" onclick="openSearch()"><a><i class="fa fa-search"></i></a></li> -->
               </ul>
               <div class="clearfix"></div>
             </div>
@@ -74,7 +121,7 @@
   </header>
   <!-- header end --> 
   
-  <!-- Carousel start -->
+<!-- Carousel start -->
   <section class="main-slider slide-wrapper" id="home">
     <div id="myCarousel" class="carousel slide"> 
       <!-- Indicators 
@@ -135,7 +182,7 @@
       <!-- <span class="sr-only">Next</span> --> 
       </a> </div>
   </section>
-  <!-- Carousel end --> 
+  <!-- Carousel end -->  
   
   <!--Services start -->
   <section class="service">
@@ -144,44 +191,43 @@
         <div class="row">
           <div class="site-top-service-main">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div class="top-servic-box ser2">
+              <div class="top-servic-box ser1">
                 <figure> <img src="assets/images/therapy.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>OUR SERVICES</h2>
+                    <h2>HOME MASSAGE <span style="font-size: 16px">£50 HOME VISIT</span></h2>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                     <br>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="assets/images/si1.png" alt=""> </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="assets/images/relaxing-massage.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>PERSONAL TRAINING </h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                      <h5>HOME MASSAGE THERAPY</h5>
+                      <p>Help relieve stress and tension.</p>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="assets/images/si2.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>FAT LOSS PROGRAM </h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                      <h5>FAT LOSS PROGRAM</h5>
+                      <p>Loose all your extra weight in the new year. </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div class="top-servic-box ser1">
-                <figure> <img src="assets/images/opening.jpg" alt="gym-fitness"> </figure>
+              <div class="top-servic-box ser2">
+                <figure> <img src="assets/images/opening.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2>MAKE AN ENQUIRY</h2>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                     <br>
-                    <H3> PHONE </H3>
-                    <h4><a href="tel:07748 785 686">07748 785 686</a></h4>
-                    <H3> EMAIL </H3>
-                    <h4> </h4>
-                  </div>
+                  <h3> PHONE </h3>
+                  <h4><a href="tel:07748 785 686">07748 785 686</a></h4>
+                  <h3> EMAIL </h3>
+                  <h4><a href="mailto:r.hoffman@btopenworld.com">r.hoffman@btopenworld.com</a></h4>
                 </div>
               </div>
             </div>
@@ -199,18 +245,18 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 home_about">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 aimg_sec">
-              <div class="row"> <img src="assets/images/rob.jpg" alt=""> </div>
+              <div class="row robImg"> <img src="assets/images/rob.jpg" alt=""> </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ainfo_sec">
               <div class="row">
                 <div class="col-sm-12">
-                  <h2 class="title"><b> about</b><span class="green_text"> ME</span><span class="light_text"></span></h2>
+                  <h2 class="title"><b> about</b><span class="green_text"> HOFFMAN HEALTH</span><span class="light_text"></span></h2>
                 </div>
                 <div class="col-sm-12">
-                  <p>I am dedicated to helping my clients reach their goals, be them in personal training, recovery or mindfulness.</p>                 
-                  <p>With my many years of health and fitness experience, we can work together to achieve more than you believe possible.</p>
-                  <p>Contact me to be motivated and change your life today.</p>
-                  <a href="about.html" class="primary-btn">see me on instagram</a> </div>
+                  <p>Providing <strong>swedish massages</strong> to rejuvenate and relax the mind body and spirit as well as <strong>sports massage</strong>, <strong>deep tissue</strong> and <strong>remedial therapy</strong>.</p>
+                  <p>Having years of <strong>experience</strong> in sports and passionate about <strong>health</strong>.</p>
+                  <a href="#" class="primary-btn">see me on instagram</a> </div>
+              </div>
               </div>
             </div>
           </div>
@@ -224,13 +270,13 @@
   <section class="home_course_sec" id="course">
     <div class="container">
       <div class="row">
-        <h2 class="title"><b> services</b></h2>
+        <h2 class="title"><b>services</b></h2>
         <div class="coueses-container filter-list clearfixcol-xs-12 col-sm-12 col-md-12 col-lg-12">
           <article class="coueses-box col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <figure class="image"><img src="assets/images/sports-massage.jpeg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>sports massage</h4>
+                <h4>SPORTS MASSAGE</h4>
               </div>
             </div>
           </article>
@@ -238,7 +284,7 @@
             <figure class="image"><img src="assets/images/nutrition-advice.jpeg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>nutrition advice</h4>
+                <h4>NUTRITION ADVICE</h4>
               </div>
             </div>
           </article>
@@ -251,18 +297,10 @@
             </div>
           </article>
           <article class="coueses-box col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <figure class="image"><img src="assets/images/injury-rehabilitation.jpeg" alt=""> </figure>
-            <div class="text-content hvr-bounce-to-bottom">
-              <div class="text">
-                <h4>injury habilatation</h4>
-              </div>
-            </div>
-          </article>
-          <article class="coueses-box col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <figure class="image"><img src="assets/images/personal-training.jpeg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>personal training</h4>
+                <h4>Personal Training</h4>
               </div>
             </div>
           </article>
@@ -270,7 +308,15 @@
             <figure class="image"><img src="assets/images/swedish-massage.jpeg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>swedish massage</h4>
+                <h4>SWEDISH MASSAGE</h4>
+              </div>
+            </div>
+          </article>
+          <article class="coueses-box col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <figure class="image"><img src="assets/images/injury-rehabilitation.jpeg" alt=""> </figure>
+            <div class="text-content hvr-bounce-to-bottom">
+              <div class="text">
+                <h4>INJURY HABILATATION</h4>
               </div>
             </div>
           </article>
@@ -289,7 +335,7 @@
       </div>
     </div>
   </section>
-  <!--Video end --> 
+  <!--Video end 
   
   <!--Team start 
   <section class="team_sec">
@@ -402,19 +448,6 @@
     </div>
   </section>
   <!--Team end --> 
-
-  <!--Gallery start 
-  <div class="gallery">
-    <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-    </div>
-  </div>
-  <!--Gallery end -->
   
   <!--Timetable start 
   <section class="timetable_sec" id="timetable">
@@ -504,7 +537,20 @@
       </div>
     </div>
   </section>
-  <!--Timetable end -->  
+  <!--Timetable end 
+  
+  <!--Gallery start 
+  <div class="gallery">
+    <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
+      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+     <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+     <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
+    </div>
+  </div>
+  <!--Gallery end 
   
   <!--Blog start 
   <section class="blog_sec" id="blog">
@@ -551,7 +597,7 @@
       </div>
     </div>
   </section>
- Blog end --> 
+  <!--Blog end --> 
   
   <!--Contact start -->
   <section id="contact" class="home_contact_sec">
@@ -594,8 +640,7 @@
           <div class="col-sm-12 col-md-12 col-lg-12 no-padding hmap">
             <div class="right">
               <div class="site-google-map" id="site-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237806.27164642312!2d72.85767079414917!3d21.361418794971083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1532954153186" width="100" height="100" style="border:0" allowfullscreen></iframe>
-              </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39784.78850129105!2d-0.37888170858150777!3d51.44807080838114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760c93b240c7c3%3A0xe4a25f60c77e7ed1!2sTwickenham!5e0!3m2!1sen!2suk!4v1544898218692" width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>              </div>
             </div>
           </div>
         </div>
@@ -612,19 +657,17 @@
           <h2 class="logo_name">HOFFMAN <span class="white_text">HEALTH </span> </h2>
           </a>
           <div class="widget-about">
-            <p>I am dedicated to helping my clients reach their goals, be them in personal training, recovery or mindfulness.</p>
-            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <!--<a class="fa fa-twitter" href="#"></a> --> <a class="fa fa-instagram" href="#"></a><!-- <a class="fa fa-google-plus" href="#"></a>--></div>
+            <p>Enjoy massage at home or work for physical and mental relaxation and help relieve stress, strains and tension.</p>
+            <div class="social"><a class="fa fa-facebook-f" href="https://www.facebook.com/Sports-Massage-Therapy-1519100721689863"></a> <!--<a class="fa fa-twitter" href="#"></a> --> <a class="fa fa-instagram" href="#"></a><!-- <a class="fa fa-google-plus" href="#"></a>--></div>
           </div>
         </div>
         <div class="footer-widget quick-links col-md-2 col-sm-6 col-xs-12 ">
-          <h4>Menu</h4>
+          <h4>MENU</h4>
           <div class="widget-link">
             <ul>
               <li> <a href="#home">Home</a></li>
               <li> <a href="#aboutus">About</a></li>
               <li> <a href="#course">Services</a></li>
-             <!-- <li> <a href="#timetable">Schedule</a></li>
-              <li> <a href="#blog">Blog</a></li> -->
               <li> <a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -633,12 +676,7 @@
           <h4>Instagram</h4>
           <div class="widget-post">
             <div class="clearfix">
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="assets/images/instagram.png" alt=""></a></figure>
+              <!-- TODO: Put instagram images here -->
             </div>
           </div>
         </div>
@@ -646,21 +684,24 @@
           <h4>Contact us</h4>
           <div class="widget-content">
             <div class="address_box"> <i class="fa fa-phone"></i>
-              <p>123-1234-123</p>
+              <p><a href="tel:07748785686">07748 785 686</a></p>
             </div>
             <div class="address_box"> <i class="fa fa-envelope"></i>
-              <p>Fitness@domain.com</p>
+              <p><a href="mailto:r.hoffman@btopenworld.com">r.hoffman@btopenworld.com</a></p>
             </div>
-            <div class="address_box1"> <i class="fa fa-map-marker"></i>
+           <!--<div class="address_box"> <i class="fa fa-envelope"></i>
+            <p>Fitness@domain.com</p> -->
+            </div>
+        <!---    <div class="address_box1"> <i class="fa fa-map-marker"></i>
               <p>1011Santa Monica <br>
                 boulevard Los Angeles</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="auto-container text-center">© 2018 <a href="#">HOFFMAN HEALTH.</a></div>
+      <div class="auto-container text-center">© 2018 <a href="#">HOFFMAN HEALTH</a></div>
     </div>
   </footer>
   <!--Footer end --> 
@@ -679,7 +720,7 @@
 <!-- filter --> 
 <script src="assets/js/jquery.isotope.min.js"></script> 
 
-<!-- gallery_popup--
+<!-- gallery_popup
 <script src="assets/js/lightbox.js"></script> -->
 
 <!-- carousel slider --> 
