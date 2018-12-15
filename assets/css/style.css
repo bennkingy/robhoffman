@@ -1409,7 +1409,7 @@ Contact_section
 .home_contact_sec .left {
 	z-index: 22;
 	position: absolute;
-	background-image: url(/assets/images/gym-twickenham.png);
+	background-image: url(../../assets/images/gym-twickenham.png);
 	background-size: cover;
 	left: -170px;
 	padding-left: 400px;
