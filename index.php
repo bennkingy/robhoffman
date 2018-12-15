@@ -25,6 +25,10 @@
   <!-- Preloader --> 
 
   <style>
+     @media (min-width:720px) {
+    .carousel-inner, .carousel, .item, .container, .fill {
+    max-height: 580px;
+}}
   @media (min-width:1024px) and (max-width:1279px) {
   .inner-content {
   height: 71vh;
