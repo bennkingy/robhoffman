@@ -359,7 +359,7 @@ endif;
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Make it happen</h2>
-              <form class="site-contact-form"  method="post" id="reused_form">
+              <form class="site-contact-form" action="" method="POST">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
                   <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
