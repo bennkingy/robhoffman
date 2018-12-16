@@ -307,7 +307,7 @@
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Make it happen</h2>
-              <form id="contactForm" class="site-contact-form"  method="post" id="reused_form">
+              <form class="site-contact-form"  method="post" id="reused_form">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
                     <input id="name" type="text" name="Name" placeholder="Name" required maxlength="50">
