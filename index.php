@@ -359,7 +359,7 @@ endif;
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Make it happen</h2>
-              <form class="site-contact-form" action="" method="POST">
+              <form class="site-contact-form" method="post" id="reused_form">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
                   <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
@@ -382,11 +382,11 @@ endif;
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                     <div class="g-recaptcha" style="margin-top:-30px;" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
+                     <div class="g-recaptcha" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
                   </div>
                 </div>
                 <div class="clearfix"> </div>				
-                <input type="submit" name="submit" value="SUBMIT" class="primary-btn">
+                <button type="submit" name="submit" value="SUBMIT" class="primary-btn"> SEND MESSAGE </button>
                 <!--<button type="submit" class="primary-btn"> SEND MESSAGE </button>-->
               </form>
               <?php if (!empty($errMsg)): ?><div class="errMsg"><?php echo $errMsg; ?></div><?php endif; ?>
