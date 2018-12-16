@@ -1,4 +1,56 @@
-﻿<!DOCTYPE html>
+﻿<?php
+if (isset($_POST['submit'])):
+    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
+        //your site secret key
+        $secret = '6LcvJ4IUAAAAACaSLBe_Sskxc8XbeOYlPGyOYJjN';
+        //get verify response data
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+        
+        $name = !empty($_POST['name'])?$_POST['name']:'';
+        $email = !empty($_POST['email'])?$_POST['email']:'';
+        $number = !empty($_POST['number'])?$_POST['number']:'';
+        $message = !empty($_POST['message'])?$_POST['message']:'';
+        if ($responseData->success):
+            //contact form submission code
+            $to = 'bennkingy@gmail.com';
+            $subject = 'New contact form have been submitted';
+            $htmlContent = "
+				<h1>Contact request details</h1>
+				<p><b>Name: </b>".$name."</p>
+        <p><b>Email: </b>".$email."</p>
+        <p><b>Number: </b>".$number."</p>
+				<p><b>Message: </b>".$message."</p>
+			";
+            // Always set content-type when sending HTML email
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            // More headers
+            $headers .= 'From:'.$name.' <'.$email.'>' . "\r\n";
+            //send email
+            @mail($to, $subject, $htmlContent, $headers);
+            
+            $succMsg = 'Your contact request have submitted successfully.';
+            $name = '';
+            $email = '';
+            $number = '';
+            $message = '';
+        else:
+            $errMsg = 'Robot verification failed, please try again.';
+        endif;
+    else:
+        $errMsg = 'Please click on the reCAPTCHA box.';
+    endif;
+else:
+    $errMsg = '';
+    $succMsg = '';
+    $name = '';
+    $email = '';
+    $number = '';
+    $message = '';
+endif;
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -14,7 +66,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <!--<link rel="stylesheet" href="assets/css/lightbox.css"> -->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/animate.css">
 <link rel="stylesheet" href="assets/css/owl.theme.default.css">
@@ -310,22 +362,22 @@
               <form class="site-contact-form"  method="post" id="reused_form">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input id="name" type="text" name="Name" placeholder="Name" required maxlength="50">
+                  <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input id="email" type="email" name="Email" placeholder="Email" required maxlength="50">
+                  <input type="text" class="text" value="<?php echo !empty($email)?$email:''; ?>" placeholder="Email adress" name="email" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input id="phone" type="phone" name="Phone" placeholder="Phone" required maxlength="50">
+                  <input type="number" class="text" value="<?php echo !empty($number)?$number:''; ?>" placeholder="Phone number" name="number" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <textarea id="message" name="Message" rows="2" maxlength="6000"  placeholder="Message" required></textarea>
+                   <textarea type="text" placeholder="Message..." required="" name="message"><?php echo !empty($message)?$message:''; ?></textarea>
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
@@ -333,17 +385,12 @@
                      <div class="g-recaptcha" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
                   </div>
                 </div>
-                <div class="clearfix"> </div>
-                <button type="submit" class="primary-btn"> SEND MESSAGE </button>
+                <div class="clearfix"> </div>				
+                <input type="submit" name="submit" value="SUBMIT" class="primary-btn">
+                <!--<button type="submit" class="primary-btn"> SEND MESSAGE </button>-->
               </form>
-              <div id="success_message" style="display:none">
-                <p>
-                  Success. I will get back to you ASAP. 
-                </p>
-                </div>
-                <div id="error_message" style="width:100%; height:100%; display:none; ">
-                <p>Sorry. Error.</p>
-              </div>
+              <?php if (!empty($errMsg)): ?><div class="errMsg"><?php echo $errMsg; ?></div><?php endif; ?>
+              <?php if (!empty($succMsg)): ?><div class="succMsg"><?php echo $succMsg; ?></div><?php endif; ?>
             </div>
           </div>
         </div>
