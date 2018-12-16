@@ -125,8 +125,31 @@ endif;
   .navbar-toggle .icon-bar {
 	height: 4px;
   }
-  @media (min-width:1200px) {
-    
+  .service_info {
+    margin-top: 7px;
+  }
+  @media (max-width:450px) {
+    #myCarousel > div > div > div > div > div > div > div > h2 {
+      padding-right: 30px;
+    }
+    #aboutus > div > div > div > div > div.col-xs-12.col-sm-12.col-md-6.col-lg-6.ainfo_sec > div > div:nth-child(2) > a {
+      width: 100%; text-align:center;
+    }
+    #aboutus > div > div > div > div > div.col-xs-12.col-sm-12.col-md-6.col-lg-6.ainfo_sec > div > div:nth-child(1) > h2
+    {
+    font-size: 29px;
+    }
+  }
+  @media (min-width:991px) and (max-width:1999px) {
+    body > footer > div.container > div > div.footer-widget.address.col-md-3.col-sm-6.col-xs-12 > div > div:nth-child(2) > p {
+      font-size: 12px;
+    }
+  }
+  @media (min-width:1199px) and (max-width:1279px) {
+
+.coueses-container {
+    padding-left: 118px;
+}
   }
   </style>
 
@@ -224,14 +247,14 @@ endif;
                     <br>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="assets/images/relaxing-massage.png" alt=""> </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-left:0px;"> <img src="assets/images/relaxing-massage.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
                       <h5>HOME MASSAGE THERAPY</h5>
                       <p>Help relieve stress and tension.</p>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="assets/images/si2.png" alt=""> </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"style="padding-left:0px;"> <img src="assets/images/si2.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
                       <h5>FAT LOSS PROGRAM</h5>
                       <p>Loose all your extra weight in the new year. </p>
@@ -358,7 +381,7 @@ endif;
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Make it happen</h2>
-              <form class="site-contact-form" method="post" id="reused_form">
+              <form class="site-contact-form" method="post" id="reused_form" style="margin-top:20px;"> 
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
                   <input type="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
@@ -381,7 +404,7 @@ endif;
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                     <div class="g-recaptcha" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
+                     <div class="g-recaptcha" style="margin-top:-22px;" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
                   </div>
                 </div>
                 <div class="clearfix"> </div>				
