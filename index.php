@@ -337,14 +337,12 @@
                 <button type="submit" class="primary-btn"> SEND MESSAGE </button>
               </form>
               <div id="success_message" style="display:none">
-                  <h3>Submitted the form successfully!</h3>
-                  <p>
-                  We will get back to you soon.
-                  </p>
+                <p>
+                  Success. I will get back to you ASAP. 
+                </p>
                 </div>
                 <div id="error_message" style="width:100%; height:100%; display:none; ">
-                  <h3>Error</h3>
-                  Sorry there was an error sending your form.
+                <p>Sorry. Error.</p>
               </div>
             </div>
           </div>
