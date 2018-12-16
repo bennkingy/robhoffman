@@ -131,13 +131,21 @@ endif;
   @media (max-width:450px) {
     #myCarousel > div > div > div > div > div > div > div > h2 {
       padding-right: 30px;
+      font-size: 31px;
     }
+    .home_contact_sec .site-contact-form input,  .home_contact_sec .site-contact-form textarea {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
     #aboutus > div > div > div > div > div.col-xs-12.col-sm-12.col-md-6.col-lg-6.ainfo_sec > div > div:nth-child(2) > a {
       width: 100%; text-align:center;
     }
     #aboutus > div > div > div > div > div.col-xs-12.col-sm-12.col-md-6.col-lg-6.ainfo_sec > div > div:nth-child(1) > h2
     {
-    font-size: 29px;
+    font-size: 24px;
+    }
+    .service_info {
+    margin-top: 11px;
     }
   }
   @media (min-width:991px) and (max-width:1999px) {
