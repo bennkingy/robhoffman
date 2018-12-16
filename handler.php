@@ -22,6 +22,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6LcvJ4IUAAAAACaSLBe_Sskxc8XbeOYlPGyOYJjN');
 
 
-$pp->sendEmailTo('someone@gmail.com'); // ← Your email here
+$pp->sendEmailTo('bennkingy@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
