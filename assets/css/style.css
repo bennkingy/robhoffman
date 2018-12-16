@@ -532,6 +532,7 @@ Services_section
 }
 .service_info img {
 	width: 80%;
+	float:left;
 }
 .service_info {
 	margin-bottom: 30px;

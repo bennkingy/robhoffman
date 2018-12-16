@@ -125,7 +125,7 @@ endif;
   .navbar-toggle .icon-bar {
 	height: 4px;
   }
-  .service_info {
+  .service_info { 
     margin-top: 7px;
   }
   @media (max-width:450px) {
@@ -158,6 +158,12 @@ endif;
 .coueses-container {
     padding-left: 118px;
 }
+  }
+
+  @media (max-width:480px) {
+  #services > div > div > div > div:nth-child(2) > div > div > div {
+    padding-left: 5px;
+  }
   }
   </style>
 
