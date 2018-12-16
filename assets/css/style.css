@@ -1573,7 +1573,7 @@ Footer
 #slider2 .owl-stage-outer {
 	padding: 0px 0px 0px 0px !important;
 }
-.carousel-inner, .carousel, .item, .container, .fill {
+.carousel-inner, .carousel, .item, .fill {
 	height: 100%;
 	background-position: center center;
 	background-size: cover;
