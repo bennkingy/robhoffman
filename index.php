@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <!--<link rel="stylesheet" href="assets/css/lightbox.css"> -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/animate.css">
 <link rel="stylesheet" href="assets/css/owl.theme.default.css">
@@ -131,12 +132,6 @@
 <!-- Carousel start -->
   <section class="main-slider slide-wrapper" id="home">
     <div id="myCarousel" class="carousel slide"> 
-      <!-- Indicators 
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="first active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="last"></li>
-      </ol> -->
       
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
@@ -148,46 +143,17 @@
                   <div class="col-md-8 iner_info">
                     <h2 class="wow fadeInUp animated img_animate">Sports massage therapy</h2>
                     <h3 class="wow fadeInUp animated title_animate">Personal training</h3>
-<!---<a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact me<menu></menu></span> <i class="fa fa-arrow-right hvr-icon" aria-hidden="true"></i></a> </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-   <!--  <div class="item item1">
-          <div class="fill" style="background-image:url(assets/images/slider.png);">
-            <div class="inner-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Fitness Complex Gym</h2>
-                    <h3 class="wow fadeInUp animated title_animate">For AtHLetic Women</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item item1">
-          <div class="fill" style="background-image:url(assets/images/slider.png);">
-            <div class="inner-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Fitness Complex Gym</h2>
-                    <h3 class="wow fadeInUp animated title_animate">For AtHLetic Women</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
       <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-up"></i> -->
       <!-- <span class="sr-only">Previous</span> --> 
       <!-- </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-down"></i> -->
       <!-- <span class="sr-only">Next</span> --> 
-      </a> </div>
+      </div>
   </section>
   <!-- Carousel end -->  
   
@@ -333,279 +299,6 @@
   </section>
   <!--Coueses end --> 
   
-  <!--Video start 
-  <section class="video_sec">
-    <div class="container-fluid">
-      <div class="row"> <a class="video-link" href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350"> <img src="assets/images/play.png" alt=""> </a>
-        <h2>Explore Fitness Complex </h2>
-        <h2 class="green_text"><a class="video-link" href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350"> Watch now</a></h2>
-      </div>
-    </div>
-  </section>
-  <!--Video end 
-  
-  <!--Team start 
-  <section class="team_sec">
-    <div class="container">
-      <div class="col-md-12">
-        <h2 class="title"><b> Our TRainers</b></h2>
-      </div>
-      <div class="col-md-12">
-        <div class="carousel">
-          <div class="owl-carousel owl-theme ss_carousel col-md-12 col-xs-12 col-sm-12" id="slider1">
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="assets/images/trainers_img.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Team end --> 
-  
-  <!--Timetable start 
-  <section class="timetable_sec" id="timetable">
-    <div class="container">
-      <div class="row">
-        <h2 class="title"><b> Our timetable</b></h2>
-        <div class="row">
-        <ul class="filter-tabs clearfix anim-3-all wow fadeInUp animated day_tabs" id="filter-tabs" data-wow-delay="0ms" data-wow-duration="1000ms">
-          <li class="filter active" data-filter=".Monday"  onclick="filterSelection('Monday')"><span class="btn-txt">Monday</span></li>
-          <li class="filter" data-filter=".tuesday" onclick="filterSelection('tuesday')"><span class="btn-txt">tuesday</span></li>
-          <li class="filter" data-filter=".Wednesday" onclick="filterSelection('Wednesday')"><span class="btn-txt">Wednesday</span></li>
-          <li class="filter" data-filter=".Thursday" onclick="filterSelection('Thursday')"><span class="btn-txt">Thursday</span></li>
-          <li class="filter" data-filter=".Friday" onclick="filterSelection('Friday')"><span class="btn-txt">Friday</span></li>
-          <li class="filter" data-filter=".Saturday" onclick="filterSelection('Saturday')"><span class="btn-txt">Saturday</span></li>
-          <li class="filter" data-filter=".sunday" onclick="filterSelection('sunday')"><span class="btn-txt">sunday</span></li>
-        </ul>
-        <select class="select filter-tabs clearfix wow fadeInUp animated select_day" onchange="filterSelection(this.value)" data-wow-delay="0ms" data-wow-duration="1000ms">
-          <option  value="Monday">Monday</option>
-          <option  value="tuesday">tuesday</option>
-          <option  value="Wednesday">Wednesday</option>
-          <option  value="Thursday">Thursday</option>
-          <option  value="Friday">Friday</option>
-          <option  value="Saturday">Saturday</option>
-          <option  value="sunday">sunday</option>
-        </select>
-        <div class="projects-container filter-list clearfix wow fadeInUp animated col-sm-12 col-xs-12 col-md-12" data-wow-delay="300ms" data-wow-duration="1000ms">
-          <div class="row">
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Saturday text-content"> <img class="img-responsive" src="assets/images/size.png" alt=""> <br>
-                <span class="time"> 06AM-08AM </span>
-                <h4> Weight Loose </h4>
-                <p> Rachel Adam </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Thursday sunday tuesday text-content"> <img class="img-responsive" src="assets/images/run.png" alt=""> <br>
-                <span class="time"> 08AM-10AM </span>
-                <h4> Cardio </h4>
-                <p> Rachel Adam </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Friday text-content"> <img class="img-responsive" src="assets/images/yoga.png" alt=""> <br>
-                <span class="time"> 10AM-01PM </span>
-                <h4> yoga </h4>
-                <p> Lefew D. Loee </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out right-line_hide">
-              <div class="text-content Monday mix_all  tuesday Wednesday sundays "> <img class="img-responsive" src="assets/images/body.png" alt=""> <br>
-                <span class="time"> 01PM-02PM </span>
-                <h4> Fitness </h4>
-                <p> Rachel Adam </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class=" Monday mix_all  tuesday text-content"> <img class="img-responsive" src="assets/images/box.png" alt=""> <br>
-                <span class="time"> 04PM-06PM </span>
-                <h4> Karate </h4>
-                <p> Keaf Shen </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class=" Monday mix_all Thursday Saturday Friday tuesday text-content"> <img class="img-responsive" src="assets/images/boxing-gloves.png" alt=""> <br>
-                <span class="time"> 06PM-07PM </span>
-                <h4> Boxing </h4>
-                <p> Rachel Adam </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class="Monday mix_all Thursday Saturday sundays text-content"> <img class="img-responsive" src="assets/images/rope.png" alt=""> <br>
-                <span class="time"> 07PM-08PM </span>
-                <h4> Aerobics & Skipping </h4>
-                <p> Lefew D. Loee </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out right-line_hide bottomrow">
-              <div class="Monday mix_all Saturday Friday Wednesday tuesday sundays text-content show"> <img class="img-responsive" src="assets/images/biceps.png" alt=""> <br>
-                <span class="time"> 08PM-09PM </span>
-                <h4>Body Building </h4>
-                <p> Rachel Adam </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-  <!--Timetable end 
-  
-  <!--Gallery start 
-  <div class="gallery">
-    <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-      <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-     <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-     <div class="item"><a class="example-image-link" href="assets/images/gallery_full.png" data-lightbox="example-1"><img class="example-image" src="assets/images/galler-img.png" alt="image-1" /></a></div>
-    </div>
-  </div>
-  <!--Gallery end 
-  
-  <!--Blog start 
-  <section class="blog_sec" id="blog">
-    <div class="container">
-      <div class="row">
-        <h2 class="title"><b> Our blog</b></h2>
-        <div class="carousel">
-          <div class="owl-carousel owl-theme ss_carousel col-md-12 col-xs-12 col-sm-12" id="slider3">
-            <div class="item ">
-              <div class="card">
-                <div class="b_date"><img class="img-responsive" src="assets/images/blog_date.png" alt=""> <span>June<br>
-                  09</span></div>
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="assets/images/blog.png" alt=""></a></div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="card">
-                <div class="b_date"> <img class="img-responsive" src="assets/images/blog_date.png" alt=""> <span>June<br>
-                  10</span> </div>
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="assets/images/blog.png" alt=""></a></div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card">
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="assets/images/blog.png" alt=""></a></div>
-                <div class="b_date"> <img class="img-responsive" src="assets/images/blog_date.png" alt=""> <span>June<br>
-                  20</span> </div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Blog end --> 
-  
   <!--Contact start -->
   <section id="contact" class="home_contact_sec">
     <div class="site-quick-support center-text site-dark-section-a">
@@ -614,30 +307,45 @@
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Make it happen</h2>
-              <form id="contactForm" class="site-contact-form">
+              <form id="contactForm" class="site-contact-form"  method="post" id="reused_form">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="text" name="contact_name" placeholder="Name" required>
+                    <input id="name" type="text" name="Name" placeholder="Name" required maxlength="50">
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="email" name="contact_email" placeholder="Email" required>
+                    <input id="email" type="email" name="Email" placeholder="Email" required maxlength="50">
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="text" name="contact_phone" placeholder="Phone" required>
+                    <input id="phone" type="phone" name="Phone" placeholder="Phone" required maxlength="50">
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <textarea name="contact_message" rows="3" placeholder="Message" required></textarea>
+                    <textarea id="message" name="Message" rows="2" maxlength="6000"  placeholder="Message" required></textarea>
+                  </div>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <div class="row">
+                    <div class="g-recaptcha" style="margin-top: -30px;" data-sitekey="Insert your recaptcha site key here"></div>
                   </div>
                 </div>
                 <div class="clearfix"> </div>
                 <button type="submit" class="primary-btn"> SEND MESSAGE </button>
               </form>
+              <div id="success_message" style="display:none">
+                  <h3>Submitted the form successfully!</h3>
+                  <p>
+                  We will get back to you soon.
+                  </p>
+                </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                  <h3>Error</h3>
+                  Sorry there was an error sending your form.
+              </div>
             </div>
           </div>
         </div>
