@@ -361,17 +361,17 @@ endif;
               <form class="site-contact-form" method="post" id="reused_form">
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                  <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
+                  <input type="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                  <input type="text" class="text" value="<?php echo !empty($email)?$email:''; ?>" placeholder="Email adress" name="email" >
+                  <input type="text" value="<?php echo !empty($email)?$email:''; ?>" placeholder="Email adress" name="email" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                  <input type="number" class="text" value="<?php echo !empty($number)?$number:''; ?>" placeholder="Phone number" name="number" >
+                  <input type="number" value="<?php echo !empty($number)?$number:''; ?>" placeholder="Phone number" name="number" >
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
