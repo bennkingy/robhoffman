@@ -77,7 +77,7 @@ endif;
   <!-- Preloader --> 
 
   <style>
-     @media (min-width:720px) {
+       @media (min-width:720px) {
     .carousel-inner, .carousel {
     max-height: 580px;
 }}
