@@ -382,7 +382,7 @@ endif;
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                     <div class="g-recaptcha" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
+                     <div class="g-recaptcha" style="margin-top:-30px;" data-sitekey="6LcvJ4IUAAAAAMU74kl3mP1_qkP6Px8rj8rDQj2s"></div>
                   </div>
                 </div>
                 <div class="clearfix"> </div>				
