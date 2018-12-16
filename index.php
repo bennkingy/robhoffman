@@ -465,7 +465,7 @@ endif;
   </footer>
   <!--Footer end --> 
 </div>
-<a href="#" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> 
+<a href="#" class="scrollToTop"><i class="fa fa-arrow-up" style="top: 15px;position: absolute; left: 17px;" aria-hidden="true"></i></a> 
 
 <!-- jQuery --> 
 <script src="assets/js/jquery.min.js"></script> 
