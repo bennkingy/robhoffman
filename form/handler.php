@@ -10,8 +10,7 @@ require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
 
-
-$pp = new FormHandler(); 
+$pp = new FormHandler();
 
 $validator = $pp->getValidator();
 $validator->fields(['Name','Email'])->areRequired()->maxLength(50);
@@ -20,7 +19,7 @@ $validator->field('Message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('Your ReCaptcha Secret Key Here');
+$pp->getReCaptcha()->initSecretKey('6LcvJ4IUAAAAACaSLBe_Sskxc8XbeOYlPGyOYJjN');
 
 
 $pp->sendEmailTo('bennkingy@gmail.com'); // ← Your email here
