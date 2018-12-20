@@ -181,6 +181,7 @@ Header
 	background: rgba(9, 9, 9, 0.90);
 	min-height: 80px;
 	padding: 15px 0;
+	z-index: 99999999999999;
 }
 .header-lower .logo .logo_name, .main-footer .logo_name {
 	margin: 8px auto;
