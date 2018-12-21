@@ -57,7 +57,7 @@ endif;
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hoffman Health - Sports Massage Therapy</title>
+<title>Rob Hoffman - Sports Massage Therapy</title>
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -183,7 +183,7 @@ endif;
     <div class="header-lower">
       <div class="container clearfix">
         <div class="logo pull-left"><a href="index.html">
-          <h2 class="logo_name">HOFFMAN <span class="white_text">HEALTH </span> </h2>
+          <h2 class="logo_name">ROB <span class="white_text">HOFFMAN </span> </h2>
           </a></div>
         <div class="right-cont clearfix">
           <nav class="main-menu">
@@ -229,8 +229,8 @@ endif;
               <div class="container">
                 <div class="row">
                   <div class="col-md-8 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Sports massage therapy</h2>
-                    <h3 class="wow fadeInUp animated title_animate">Personal training</h3>
+                    <h2 class="wow fadeInUp animated img_animate">Personal training & massage therapy</h2>
+                    <h3 class="wow fadeInUp animated title_animate">Massage therapy</h3>
                 </div>
               </div>
             </div>
@@ -450,7 +450,7 @@ endif;
     <div class="container">
       <div class="footer-widget-area clearfix">
         <div class="footer-widget about-widget col-md-3 col-sm-6 col-xs-12"> <a href="#">
-          <h2 class="logo_name">HOFFMAN <span class="white_text">HEALTH </span> </h2>
+          <h2 class="logo_name">ROB<span class="white_text">HOFFMAN </span> </h2>
           </a>
           <div class="widget-about">
             <p>Enjoy massage at home or work for physical and mental relaxation and help relieve stress, strains and tension.</p>
@@ -497,7 +497,7 @@ endif;
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="auto-container text-center">© 2018 <a href="#">HOFFMAN HEALTH</a></div>
+      <div class="auto-container text-center">© 2018 <a href="#">ROB HOFFMAN</a></div>
     </div>
   </footer>
   <!--Footer end --> 
