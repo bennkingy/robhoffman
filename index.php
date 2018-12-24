@@ -229,8 +229,8 @@ endif;
               <div class="container">
                 <div class="row">
                   <div class="col-md-8 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Personal training & massage therapy</h2>
-                    <h3 class="wow fadeInUp animated title_animate">Massage therapy</h3>
+                    <h2 class="wow fadeInUp animated img_animate">ROB HOFFMAN HEALTH & FITNESS</h2>
+                    <!--<h3 class="wow fadeInUp animated title_animate">Massage therapy</h3>-->
                 </div>
               </div>
             </div>
@@ -256,22 +256,29 @@ endif;
                 <figure> <img src="assets/images/therapy.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>HOME MASSAGE <span style="font-size: 16px">£50 HOME VISIT</span></h2>
+                    <h2>HOME MASSAGE THERAPY<span style="font-size: 19px"> - £50 <span style="font-size:13px">PH</span></h2>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                     <br>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-left:0px;"> <img src="assets/images/relaxing-massage.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>HOME MASSAGE THERAPY</h5>
-                      <p>Help relieve stress and tension.</p>
+                      <h5>SWEDISH MASSAGE</h5>
+                      <p>Smooth the mind and body.</p>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"style="padding-left:0px;"> <img src="assets/images/si2.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>FAT LOSS PROGRAM</h5>
-                      <p>Loose all your extra weight in the new year. </p>
+                      <h5>SPORTS MASSAGE</h5>
+                      <p>For treament of soft tissue injuries.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"style="padding-left:0px;"> <img src="assets/images/si2.png" alt=""> </div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                      <h5>DEEP TISSUE MASSAGE</h5>
+                      <p>For a firmer general massage.</p>
                     </div>
                   </div>
                 </div>
@@ -282,14 +289,40 @@ endif;
                 <figure> <img src="assets/images/opening.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>MAKE AN ENQUIRY</h2>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
-                    <br>
+                   <h2>FITNESS COACH</h2>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
+                 <!--  <br>
                   <h3> PHONE </h3>
                   <h4><a href="tel:07748 785 686">07748 785 686</a></h4>
                   <h3> EMAIL </h3>
-                  <h4><a href="mailto:r.hoffman@btopenworld.com">r.hoffman@btopenworld.com</a></h4>
+                  <h4><a href="mailto:r.hoffman@btopenworld.com">r.hoffman@btopenworld.com</a></h4>-->
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-left:0px;"> <img src="assets/images/relaxing-massage.png" alt=""> </div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                      <h5>PERSONAL TRAINING</h5>
+                      <p>Help you to achieve your fitness goals.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"style="padding-left:0px;"> <img src="assets/images/si2.png" alt=""> </div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                      <h5>WEIGHT LOSS</h5>
+                      <p>Tailored weight loss program.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"style="padding-left:0px;"> <img src="assets/images/si2.png" alt=""> </div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                      <h5>STRENGTH & CONDITIONING</h5>
+                      <p>To get you where you need to be.</p>
+                    </div>
+                  </div>
+
+
+
+
+
               </div>
             </div>
           </div>
@@ -311,12 +344,12 @@ endif;
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ainfo_sec">
               <div class="row">
                 <div class="col-sm-12">
-                  <h2 class="title"><b> about</b><span class="green_text"> HOFFMAN HEALTH</span><span class="light_text"></span></h2>
+                  <h2 class="title"><b> 25+</b><span class="green_text"> YEARS OF EXPERIENCE</span><span class="light_text"></span></h2>
                 </div>
                 <div class="col-sm-12">
-                  <p>Providing <strong>swedish massages</strong> to rejuvenate and relax the mind body and spirit as well as <strong>sports massage</strong>, <strong>deep tissue</strong> and <strong>remedial therapy</strong>.</p>
-                  <p>Having years of <strong>experience</strong> in sports and passionate about <strong>health</strong>.</p>
-                  <a href="#" class="primary-btn">see me on instagram</a> </div>
+                  
+                <p>Professionally qualified fitness coach, passionate about health and fitness, focused on how the body works and how to maintain it.</p>
+
               </div>
               </div>
             </div>
